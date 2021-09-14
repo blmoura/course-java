@@ -5,12 +5,7 @@ public class Product {
     private double price;
     private int quantity;
 
-    public Product() {  }
-
-    public Product(String name, double price, int quantity) {
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
+    public Product() {
     }
 
     public Product(String name, double price) {
@@ -18,20 +13,20 @@ public class Product {
         this.price = price;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getName() {
         return name;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public double getPrice() {
         return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getQuantity() {
